@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Privacy policy for a personal Obsidian vault synchronization application.">
+  <title>Privacy Policy — Personal Obsidian Sync</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f5;
+      --surface: #ffffff;
+      --text: #242424;
+      --muted: #626262;
+      --accent: #7057c8;
+      --border: #dededb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191919;
+        --surface: #242424;
+        --text: #ededed;
+        --muted: #b0b0b0;
+        --accent: #b7a5ff;
+        --border: #414141;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 40px 18px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 36px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+
+    h1, h2 { line-height: 1.3; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); }
+    h2 { margin-top: 2rem; font-size: 1.3rem; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    code {
+      overflow-wrap: anywhere;
+      background: var(--bg);
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 520px) {
+      body { padding: 16px 10px; }
+      main { padding: 22px 18px; }
+    }
+  </style>
+</head>
+
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+
+  <p class="muted">
+    Personal Obsidian Sync · Last updated: 2026/10/22
+  </p>
+
+  <p>
+    This privacy policy describes how Personal Obsidian Sync uses
+    Google account authorization to support synchronization of an
+    Obsidian vault with Google Drive through the GSync community
+    plugin for Obsidian.
+  </p>
+
+  <p>
+    This is a personal project and is not an official Google or
+    Obsidian product. It is not affiliated with or endorsed by
+    Google, Obsidian, or the developer of the GSync plugin.
+  </p>
+
+  <h2>1. Purpose</h2>
+  <p>
+    The application is intended for personal use. Its purpose is to
+    authorize the GSync plugin to access Google Drive as necessary
+    to synchronize files belonging to the user's Obsidian vault.
+  </p>
+
+  <h2>2. Information and Permissions</h2>
+  <p>
+    Depending on the OAuth permissions configured for the application
+    and the functionality used by the plugin, the synchronization
+    process may access:
+  </p>
+  <ul>
+    <li>
+      Google account authorization credentials, including OAuth
+      tokens used to maintain authorized access.
+    </li>
+    <li>
+      Google Drive file metadata, such as file names, identifiers,
+      and modification information.
+    </li>
+    <li>
+      The contents of files that the plugin reads or synchronizes,
+      including Markdown notes, attachments, and Obsidian settings
+      if those files are included in synchronization.
+    </li>
+  </ul>
+  <p>
+    The exact access permitted is determined by the Google OAuth
+    scopes and the plugin's implementation. Only describe permissions
+    here that the application actually requests and uses.
+  </p>
+
+  <h2>3. How Information Is Used</h2>
+  <p>
+    Information accessed through Google Drive is used to provide
+    the intended synchronization functionality between the user's
+    Obsidian vault and Google Drive.
+  </p>
+  <p>
+    Google account authorization is used to authenticate requests
+    to Google's services. Data may be transmitted between the
+    user's device and Google when synchronization operations occur.
+  </p>
+
+  <h2>4. Storage and Retention</h2>
+  <p>
+    Vault files may be stored locally on the user's devices and in
+    the user's Google Drive, according to the user's synchronization
+    configuration.
+  </p>
+  <p>
+    OAuth tokens may be stored by the plugin to maintain authorization.
+    Their precise storage location and lifecycle depend on the plugin
+    implementation and configuration.
+  </p>
+  <p>
+    [Confirm whether this application or plugin stores any additional
+    copies of user data, logs, or credentials outside the user's
+    devices and Google Drive. Describe any such storage and its
+    retention period here.]
+  </p>
+
+  <h2>5. Sharing and Disclosure</h2>
+  <p>
+    This application is not intended to sell personal information
+    or use vault contents for advertising.
+  </p>
+  <p>
+    Synchronization involves Google Drive and Google's API services.
+    Google processes information according to its own terms and
+    privacy policy. Other services may process information if they
+    are enabled or used as part of the user's configuration.
+  </p>
+  <p>
+    [Identify any additional third-party services that receive
+    information, if applicable.]
+  </p>
+
+  <h2>6. Data Security</h2>
+  <p>
+    Access to Google Drive is controlled through Google's OAuth
+    authorization system. Users should protect their devices,
+    Google accounts, and any locally stored authorization tokens.
+  </p>
+  <p>
+    No method of electronic storage or transmission can be guaranteed
+    to be completely secure.
+  </p>
+
+  <h2>7. Revoking Access</h2>
+  <p>
+    The user may revoke this application's Google account access
+    through their
+    <a href="https://myaccount.google.com/permissions">
+      Google Account third-party connections
+    </a>.
+    Revoking access prevents future authorized API requests, although
+    previously synchronized files may remain in Google Drive or on
+    local devices until the user deletes them.
+  </p>
+
+  <h2>8. Children's Privacy</h2>
+  <p>
+    This personal application is not designed to collect personal
+    information from children. It is not intended as a service
+    directed toward children.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    This policy may be updated if the application's functionality,
+    permissions, or data handling practices change. The latest
+    version will be published at this URL, with the update date
+    revised accordingly.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    For questions about this application or this privacy policy,
+    contact:
+    <a href="mailto:k.g.jamesroby@gmail.com">
+      k.g.jamesroby@gmail.com
+    </a>
+  </p>
+</main>
+</body>
+</html>
